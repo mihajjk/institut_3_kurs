@@ -53,7 +53,9 @@ void obr(){
 bool GO = true;
 void stop(int sig){
         GO = false;
-}                                                                                                                     int main(){
+}
+
+int main(){
 
 cout << "Введите длину очереди : ";
 cin >> maxQ;
@@ -87,5 +89,5 @@ cout << " min"<<endl;
         cout << "Средняя интенсивность входного потока: "<< (vsegoZayavok+poteri)/time << " в минуту. \n";
         cout << "Средняя интенсивность выходного потока : " << obclycjili/time << " в минуту. \n";
         cout << "Средняя длина очереди : "<< midInQ << endl;
-        return 0; 
+        return 0;
 }
